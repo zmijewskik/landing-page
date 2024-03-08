@@ -5,10 +5,13 @@ window.onscroll = function () {
 }
 
 function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    btnGoTop.style.display = 'block'
+  if (
+    document.body.scrollTop > 400 ||
+    document.documentElement.scrollTop > 400
+  ) {
+    btnGoTop.style.opacity = '1'
   } else {
-    btnGoTop.style.display = 'none'
+    btnGoTop.style.opacity = '0'
   }
 }
 
