@@ -114,6 +114,7 @@ h1 {
     color: #F9FAF8;
     background-color: #3882F6;
     transition-duration: 0.5s;
+    cursor: pointer;
 }
 
 .hero-description button:hover,
